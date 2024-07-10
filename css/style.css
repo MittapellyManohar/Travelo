@@ -1,0 +1,367 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+body h2 {
+	font-size: 38px;
+	font-weight: 400;
+	
+	color: #040E27;
+}
+body h3 {
+	
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+}
+body p {
+	font-size: 16px;
+	font-weight: 400;
+	
+	color: #7A838B;
+	line-height: 28px;
+}
+
+.header {
+	float: left;
+	width: 100%;
+	margin-left: 0%;
+	padding: 30px 0px 25px 35px;
+}
+
+.logo {
+	float: left;
+	width: 15%;
+	
+}
+.menu {
+	float: left;
+	width: 50%;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 20px;
+}
+.menu ul li a {
+	color: black;
+}
+.banner {
+	background-image: url("../images/banner2.png.webp");
+	background-size: cover;
+	width: 100%;
+	float: left;
+	height: 100vh;
+}
+.banner div {
+	text-align: center;
+	margin-top: 220px;
+	color: white;
+}
+.banner div h1 {
+	font-size: 120px;
+    font-family: 'Splash', cursive;
+}
+.banner div h4 {
+	font-size: 20px;
+	font-weight: 400;
+	padding: 30px;
+	font-family: 'Rubik', sans-serif;
+}
+.banner div a {
+	background-color: #1EC6B6;
+	color: white;
+	padding: 20px 40px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+
+}
+.banner div a:hover {
+	background-color: #FF4A52;
+	text-decoration: none;
+}
+.black {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 65px;
+	background-color: black;
+}
+
+.fields {
+	padding: 15px 5px;
+	border-radius: 5px;
+	width: 25%;
+	float: left;
+	background: transparent;
+	border: groove red;
+	margin: 0px 5px;
+}
+
+.black .search {
+	width: 10%;
+	border-radius: 5px;
+    float: 	left;
+    margin: 0px 5px;
+}
+.black .search input:hover {
+	background-color: #1EC6B6;
+	text-decoration: none;
+}
+.black .search input {
+	padding: 20px 40px;
+    color: white;
+    background-color: #FF4A52;
+    border-radius: 8px;
+}
+
+.white {
+	width: 100%;
+	float: left;
+	text-align: center;
+    padding: 100px 0px;
+}
+.white h2 {
+    padding: 20px 0px;
+}
+.gallery {
+	margin-bottom: 150px;
+}
+.gallery div.row {
+    margin-bottom: 25px;
+}
+.subscribe {
+	float: left;
+	width: 100%;
+	background: url("../images/newsletter.png.webp") no-repeat center;
+	background-size: cover;
+	padding: 20px 0px;
+	position: relative;
+}
+.subscribe .color {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px; top: 0px;
+	background-color: #040E27;
+	opacity: 0.5;
+
+}
+.subscribe div.container {
+	margin: 60px;
+	
+}
+.subscribe div.form1 {
+	float: left;
+	width: 100%;
+}
+.subscribe div.form1 input {
+    padding: 15px 175px 15px 0px;
+	border-radius: 5px;
+
+}
+.subscribe div.form2 {
+	float: left;
+	width: 100%;
+	padding: 0px;
+
+}
+.subscribe div.form2 input {
+     padding: 16px 30px;
+	border-radius: 5px;
+	background-color: #FF4A52;
+	color: white;
+}
+.subscribe div.form2 input:hover {
+	background-color: #1EC6B6;
+	text-decoration: none;
+}
+
+.subscribe p {
+	color: #AAB1B7;
+}
+.popular {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	background-color: #F7FAFD;
+	padding: 130px 0px 60px 0px;
+}
+.popular div h3 {
+	color: black;
+	font-size: 35px;
+	font-weight: 400;
+}
+.popular div p {
+	padding: 20px;
+}
+
+.gallery1 {
+	background-color: #F7FAFD;
+	padding-bottom: 120px;
+}
+.gallery1 div.row {
+	margin-bottom: 25px;
+}
+.gallery1 div.row h4 {
+	font-size: 24px;
+	font-weight: 400;
+	padding: 10px 0px;
+}
+.gallery1 a {
+	color: white;
+	background-color: #FF4A52;
+	padding: 20px 45px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+}
+.gallery1 a:hover {
+	background-color: #1EC6B6;
+	text-decoration: none;
+}
+
+.enjoy {
+	float: left;
+	width: 100%;
+	background: url("../images/video.png.webp") no-repeat center;
+    height: 100vh;
+}
+.enjoy .Video h6 {
+	font-size: 80px;
+    font-family: 'Splash', cursive;
+    text-align: center;
+    margin-top: 160px;
+    color: white;
+}
+.toor {
+	float: left;
+	width: 100%;
+	margin: 150px 0px;
+}
+.toor h3 {
+    color: black;
+    padding: 20px 0px;
+}
+.toor img {
+}
+.human {
+	float: left;
+	width: 100%;
+	background-color: #f7fafd;
+	padding: 100px 0px;
+}
+.human .para {
+	color: #040E27;
+	font-size: 18px;
+	line-height: 32px;
+}
+.trip {
+	float: left;
+	width: 100%;
+	margin: 100px 0px;
+	
+}
+.trip h2 {
+	margin: 70px 0px;
+}
+.trip h3 {
+	color: #040E27;
+	font-size: 22px;
+	line-height: 28px;
+	padding-top: 7px;
+}
+.footer {
+	float: left;
+	width: 100%;
+	background-color: #040E27;
+	padding: 120px;
+}
+.footer a {
+	display: inline-block;
+	color: #AAB1B7;
+	line-height: 40px;
+	font-weight: 400;
+}
+.footer table a {
+	color: #ACACAC;
+	font-size: 14px;
+	line-height: 36px;
+	display: inline-block;
+}
+.footer h3 {
+	padding-bottom: 40px;
+}
+.footer .Instagram .row {
+	padding-bottom: 12px;
+}
+.footer .Instagram img {
+	border-radius: 10px;
+}
+.footer p {
+padding-top: 40px;
+font-size: 14px;
+}
+.footer .last {
+	padding-top: 120px;
+}
+.footer .last a {
+	color: #FF4A52;
+}
+
+
+
